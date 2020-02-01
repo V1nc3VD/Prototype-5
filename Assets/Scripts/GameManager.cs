@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
         StartCoroutine(SpawnTarget());
         score = 0;
         titleScreen.gameObject.SetActive(false);
-        
+        //spawnrate is oude spawnrate gedeeld door diffuculty, hoe lager hoe sneller dingen dus spawnen.
         spawnRate /= difficulty;
     }
 

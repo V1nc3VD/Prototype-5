@@ -22,6 +22,7 @@ public class DifficultyButton : MonoBehaviour
     public void SetDifficulty()
     {
         Debug.Log(button.gameObject.name + "difficulty ingesteld");
+        //start een game met de aangeklikte difficulty
         gameManager.StartGame(difficulty);
     }
 
